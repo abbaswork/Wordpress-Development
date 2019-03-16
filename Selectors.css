@@ -1,4 +1,4 @@
-/* change links for email, phone and social media elements
+/* change links for email, phone and social media elements */
 
 a[href*="tel:"]:before {
 font-family: FontAwesome;
