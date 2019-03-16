@@ -1,0 +1,16 @@
+/* change links for email, phone and social media elements
+
+a[href*="tel:"]:before {
+font-family: FontAwesome;
+content:"\f095 \00a0 \00a0";
+}
+
+a[href*="mailto:"]:before {
+font-family: FontAwesome;
+content:"\f0e0 \00a0 \00a0";
+}
+
+a[href*="facebook"]:before {
+font-family: FontAwesome;
+content:"\f230";
+}
